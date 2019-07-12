@@ -40,8 +40,7 @@ function start () {
           -vconsole:emer \
           -vconsole:err \
           -vconsole:info \
-          --pidfile=${OVS_PID} \
-          --mlockall
+          --pidfile=${OVS_PID}
 }
 
 function stop () {
